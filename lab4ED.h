@@ -7,7 +7,7 @@ typedef struct _structArbol{
 	struct _structArbol *hizq, *hder;
 }AB;
 
-//arbol
+//arbol 1247NNN5N8NN36NNN
 AB *iniciaAB();
 AB *insertaValorAB(AB *, char);
 AB *creaNodoAB(char);
@@ -42,7 +42,6 @@ AB *creaNodo(char c){
 }
 
 AB *creaArbol(FILE *p){
-
 	char c;
 	if(feof(p)){
 		return NULL;
@@ -58,4 +57,3 @@ AB *creaArbol(FILE *p){
 		return nuevoArbol;
 	}
 }
-//1247NNN5N8NN36NNN

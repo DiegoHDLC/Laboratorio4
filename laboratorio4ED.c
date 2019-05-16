@@ -2,9 +2,8 @@
 
 int main(){
 	FILE *p;
-
-	p = fopen("textoArbol.txt","r");
 	AB *unArbol;
+	p = fopen("textoArbol.txt","r");
 	unArbol = malloc(sizeof(AB));
 	unArbol = creaArbol(p);
 	system("cls");
