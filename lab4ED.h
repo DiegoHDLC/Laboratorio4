@@ -7,10 +7,6 @@ typedef struct _structArbol{
 	struct _structArbol *hizq, *hder;
 }AB;
 
-//archivo
-char *leerTexto();
-int contarDatos();
-void imprimirArreglo(char*);
 //arbol
 AB *iniciaAB();
 AB *insertaValorAB(AB *, char);
