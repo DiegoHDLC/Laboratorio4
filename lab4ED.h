@@ -52,7 +52,6 @@ AB *creaArbol(FILE *p){
 		return NULL;
 	}
 	c = fgetc(p);
-	printf("%c\n",c );
 	if(c == 'N'){
 		return NULL;
 	}

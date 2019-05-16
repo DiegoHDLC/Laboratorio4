@@ -7,9 +7,7 @@ int main(){
 	AB *unArbol;
 	unArbol = malloc(sizeof(AB));
 	unArbol = creaArbol(p);
-//printf("sale");
-system("cls");
+	system("cls");
 	imprimirArbol(unArbol,0);
-	printf("\n");
 	fclose(p);
 }
