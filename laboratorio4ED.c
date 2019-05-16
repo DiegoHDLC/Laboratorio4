@@ -6,7 +6,5 @@ int main(){
 	p = fopen("textoArbol.txt","r");
 	unArbol = malloc(sizeof(AB));
 	unArbol = creaArbol(p);
-	system("cls");
-	imprimirArbol(unArbol,0);
 	fclose(p);
 }

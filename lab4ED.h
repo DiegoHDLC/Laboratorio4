@@ -11,22 +11,6 @@ typedef struct _structArbol{
 AB *iniciaAB();
 AB *insertaValorAB(AB *, char);
 AB *creaNodoAB(char);
-void imprimirArbol(AB *, int);
-
-void imprimirArbol(AB *arbol, int cont){
-	if(arbol == NULL){
-		return;
-	}
-	else{
-		imprimirArbol(arbol->hder,cont+1);
-		for(int i = 0; i < cont; i++){
-			printf("  ");
-		}
-		printf("%c\n",arbol->dato);
-
-		imprimirArbol(arbol->hizq,cont+1);
-	}
-}
 
 AB *iniciaAB(){
 	return NULL;
